@@ -20,7 +20,7 @@ npm i json-stringify-safe
 
 ## Configurando Environment das ferramentas de monitoria
 
-O projeto precisará das respectivas variáveis de ambiente configuradas. É indicado que sejam aplicadas ao docker-compose.yml
+O projeto precisará da variáveis de ambiente das ferramentas configuradas para que o logger funcione corretamente. É indicado que sejam aplicadas ao docker-compose.yml
 
 #Sentry <br>
 SENTRY_ENV: local <br>
@@ -55,7 +55,7 @@ transactionTags: object  //receberá um objeto contendo as tags a serem exibidas
 
 ### Exemplo index.ts :
 
-Obs: deixei um arquivo de teste neste repositório com o nome de "logger.spec.ts"
+Obs: Há arquivo de teste neste repositório com o nome de "logger.spec.ts"
 
 ```javascript
 import {logger} from './instances'
@@ -71,5 +71,3 @@ try {
 }
 
 ```
-
-

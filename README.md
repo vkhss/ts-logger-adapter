@@ -23,14 +23,16 @@ npm i json-stringify-safe
 
 O projeto precisará da variáveis de ambiente das ferramentas configuradas para que o logger funcione corretamente. É indicado que sejam adicionadas ao docker-compose.yml do sua aplicação para realização de testes locais. 
 
-#Sentry <br>
-SENTRY_ENV: local <br>
-SENTRY_DSN: https://example.com.br <br>
+```
+#Sentry 
+SENTRY_ENV: local
+SENTRY_DSN: https://example.com.br
 
-#Elastic - APM <br>
-ELASTIC_APM_SECRET_TOKEN: your_token <br>
-ELASTIC_APM_SERVER_URL: https://example.com.br <br>
-ELASTIC_APM_ENVIRONMENT: local <br>
+#Elastic - APM
+ELASTIC_APM_SECRET_TOKEN: your_token
+ELASTIC_APM_SERVER_URL: https://example.com.br
+ELASTIC_APM_ENVIRONMENT: local 
+```
 
 ## Incluindo as chamadas do logger adapter
 

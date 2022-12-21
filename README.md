@@ -55,7 +55,7 @@ Obs: deixei um arquivo de teste neste repositorio com o nome de logger.spec.ts
 import {logger} from './instances'
 
 try {
-    console.log('you logic here');
+    console.log('your logic here');
 } catch(error){
     logger.error({
         transactionName: '[TESTING] Error', 

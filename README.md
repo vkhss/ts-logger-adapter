@@ -14,9 +14,9 @@ Para utilizar o logger adapter, basta copiar o folder "adapters" para dentro do 
 
 O projeto precisará das seguintes dependências: 'elastic-apm-node' , '@sentry/node' e 'json-stringify-safe' . Para adicioná-las execute os seguites comandos: 
 
-npm i elastic-apm-node
-npm i @sentry/node
-npm i json-stringify-safe
+npm i elastic-apm-node <br>
+npm i @sentry/node <br>
+npm i json-stringify-safe <br>
 
 ## Configurando Environment das ferramentas de monitoria
 

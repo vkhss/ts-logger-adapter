@@ -17,8 +17,6 @@ export class ElasticAPMService implements IStartMonitoring, ICaptureError {
     const useElastic =
       ELASTIC_APM_SECRET_TOKEN && ELASTIC_APM_SERVER_URL && ELASTIC_APM_ENVIRONMENT;
     if (useElastic) {
-
-      console.log("use elastic")
       apm.start({
         captureSpanStackTraces: false,
         usePathAsTransactionName: true,

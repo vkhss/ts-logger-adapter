@@ -31,9 +31,9 @@ Para realizar a incusão dos logs de erro na sua aplicação, você deverá real
 
 Opós isto você poderá chamar o metodo desejado de acordo com a severidade do erro, São eles: 
 
-:x: logger.error => Deverá logar um erro de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
-:warning: logger.warn => Deverá logar um warn de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
 :skull: logger.fatal => Deverá logar um fatal de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
+:x: logger.error => Deverá logar um erro de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
+:warning: logger.warn => Deverá logar um warn de teste nas ferramentas (Sentry, e StackDriver) <br>
 :information_source: logger.info => Deverá logar um info de teste nas ferramentas (StackDriver) <br>
 :wrench: logger.debug => Deverá logar um debug de teste nas ferramentas (StackDriver) <br>
 

@@ -1,4 +1,4 @@
-# Logger Adapter Typescript
+# Logger Adapter Typescript (NodeJs)
 
 Este adapter foi desenvolvido com a finalidade de implementar métodos padrão para o acionamento de N Ferramentas de monitoria de uma aplicação, dentre eles o start da monitoria caso haja, captura de erros e captura de transações. 
 

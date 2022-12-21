@@ -31,19 +31,19 @@ Para realizar a incusão dos logs de erro na sua aplicação, você deverá real
 
 Opós isto você poderá chamar o metodo desejado de acordo com a severidade do erro, São eles: 
 
-:x: logger.error => Deverá logar um erro de teste nas ferramentas (Sentry, ElasticAPM e StackDriver)
-:warning: logger.warn => Deverá logar um warn de teste nas ferramentas (Sentry, ElasticAPM e StackDriver)
-:skull: logger.fatal => Deverá logar um fatal de teste nas ferramentas (Sentry, ElasticAPM e StackDriver)
-:information_source: logger.info => Deverá logar um info de teste nas ferramentas (StackDriver)
-:wrench: logger.debug => Deverá logar um debug de teste nas ferramentas (StackDriver)
+:x: logger.error => Deverá logar um erro de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
+:warning: logger.warn => Deverá logar um warn de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
+:skull: logger.fatal => Deverá logar um fatal de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
+:information_source: logger.info => Deverá logar um info de teste nas ferramentas (StackDriver) <br>
+:wrench: logger.debug => Deverá logar um debug de teste nas ferramentas (StackDriver) <br>
 
 Ambos possuem os mesmos parametros: 
 
 ```
-transactionName: string    //receberá o nome da transação de erro.
-transactionData: any  //receberá o dados adicionais do erro.
+transactionName: string    //receberá o nome da transação de erro. 
+transactionData: any  //receberá o dados adicionais do erro. 
 transactionError: Error  //receberá o objeto de erro, caso haja. 
-transactionTags: object  //receberá um objeto contendo as tags a serem exibidas no cabeçalho do sentry. 
+transactionTags: object  //receberá um objeto contendo as tags a serem exibidas no cabeçalho do sentry.
 
 ```
 

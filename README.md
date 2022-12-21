@@ -52,10 +52,9 @@ transactionError: Error  //receberá o objeto de erro, caso haja.
 transactionTags: object  //receberá um objeto contendo as tags a serem exibidas no cabeçalho do sentry.
 
 ```
+Obs: Há arquivo de teste neste repositório chamado "logger.spec.ts", você poderá executa-lo caso queira testar todos os métodos de uma só vez. 
 
 ### Exemplo index.ts :
-
-Obs: Há arquivo de teste neste repositório com o nome de "logger.spec.ts"
 
 ```javascript
 import {logger} from './instances'

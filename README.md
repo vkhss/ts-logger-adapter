@@ -14,10 +14,11 @@ Para utilizar o logger adapter, basta copiar o folder "adapters" para dentro do 
 
 O projeto precisará das seguintes dependências: 'elastic-apm-node' , '@sentry/node' e 'json-stringify-safe' . Para adicioná-las execute os seguites comandos: 
 
-npm i elastic-apm-node <br>
-npm i @sentry/node <br>
-npm i json-stringify-safe <br>
-
+```
+npm i elastic-apm-node 
+npm i @sentry/node 
+npm i json-stringify-safe
+``` 
 ## Configurando Environment das ferramentas de monitoria
 
 O projeto precisará da variáveis de ambiente das ferramentas configuradas para que o logger funcione corretamente. É indicado que sejam adicionadas ao docker-compose.yml do sua aplicação para realização de testes locais. 

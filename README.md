@@ -35,7 +35,7 @@ ELASTIC_APM_ENVIRONMENT: local <br>
 
 Para realizar a inclusão dos logs em sua aplicação, você deverá realizar o import do logger para o arquivo no qual deseja usá-lo.
 
-Após isto você poderá chamar o método desejado de acordo com a severidade do erro, são elas: 
+Após isto você poderá chamar o método desejado de acordo com a severidade do erro, são eles: 
 
 :skull: logger.fatal => Deverá logar um fatal de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
 :x: logger.error => Deverá logar um erro de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>

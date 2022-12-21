@@ -1,5 +1,11 @@
 # Logger Adapter Typescript
 
+Este adapter foi desenvolvido com a finalidade de implementar métodos padrão para o acionamento de N Ferramentas de monitoria de uma aplicação, dentre eles o start da monitoria caso haja, captura de erros e captura de transações. 
+
+Por padrão ele já está implementando as seguintes ferramentas: 
+
+Elastic APM e Sentry e StackDriver (gcloud logging).
+
 ## Copiando arquivos para o seu projeto Typescript
 
 Para utilizar o logger adapter basta copiar o folder "adapters" para dentro do projeto junto com o arquivo "intances.ts" 
@@ -25,11 +31,11 @@ ELASTIC_APM_SECRET_TOKEN: your_token
 ELASTIC_APM_SERVER_URL: https://example.com.br
 ELASTIC_APM_ENVIRONMENT: local
 
-## Inclundo as chamadas do logger adapter
+## Incluindo as chamadas do logger adapter
 
-Para realizar a incusão dos logs de erro na sua aplicação, você deverá realizar o import do logger para o arquivo no qual deseja usa-lo.
+Para realizar a inclusão dos logs de erro na sua aplicação, você deverá realizar o import do logger para o arquivo no qual deseja usá-lo.
 
-Opós isto você poderá chamar o metodo desejado de acordo com a severidade do erro, São eles: 
+Após isto você poderá chamar o método desejado de acordo com a severidade do erro, São eles: 
 
 :skull: logger.fatal => Deverá logar um fatal de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
 :x: logger.error => Deverá logar um erro de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>
@@ -49,7 +55,7 @@ transactionTags: object  //receberá um objeto contendo as tags a serem exibidas
 
 ### Exemplo files.ts :
 
-Obs: deixei um arquivo de teste neste repositorio com o nome de logger.spec.ts
+Obs: deixei um arquivo de teste neste repositório com o nome de "logger.spec.ts"
 
 ```javascript
 import {logger} from './instances'

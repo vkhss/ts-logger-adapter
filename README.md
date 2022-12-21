@@ -22,14 +22,14 @@ npm i json-stringify-safe
 
 O projeto precisará das respectivas ENVs configuradas, é indicado que sejam aplicadas ao docker-compose.yml neste projeto estou as adicionando a um arquivo .env.example 
 
-#Sentry
-SENTRY_ENV: local
-SENTRY_DSN: https://example.com.br
+#Sentry <br>
+SENTRY_ENV: local <br>
+SENTRY_DSN: https://example.com.br <br>
 
-#Elastic - APM
-ELASTIC_APM_SECRET_TOKEN: your_token
-ELASTIC_APM_SERVER_URL: https://example.com.br
-ELASTIC_APM_ENVIRONMENT: local
+#Elastic - APM <br>
+ELASTIC_APM_SECRET_TOKEN: your_token <br>
+ELASTIC_APM_SERVER_URL: https://example.com.br <br>
+ELASTIC_APM_ENVIRONMENT: local <br>
 
 ## Incluindo as chamadas do logger adapter
 

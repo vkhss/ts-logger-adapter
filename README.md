@@ -37,7 +37,7 @@ Opós isto você poderá chamar o metodo desejado de acordo com a severidade do 
 :information_source: logger.info => Deverá logar um info de teste nas ferramentas (StackDriver) <br>
 :wrench: logger.debug => Deverá logar um debug de teste nas ferramentas (StackDriver) <br>
 
-Ambos possuem os mesmos parametros: 
+Ambos possuem os mesmos parametros, porem o "transactionError" só é aplicado ao fatal e error. 
 
 ```
 transactionName: string    //receberá o nome da transação de erro. 

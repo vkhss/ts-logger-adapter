@@ -20,7 +20,7 @@ npm i json-stringify-safe <br>
 
 ## Configurando Environment das ferramentas de monitoria
 
-O projeto precisará da variáveis de ambiente das ferramentas configuradas para que o logger funcione corretamente. É indicado que sejam aplicadas ao docker-compose.yml
+O projeto precisará da variáveis de ambiente das ferramentas configuradas para que o logger funcione corretamente. É indicado que sejam adicionadas ao docker-compose.yml do sua aplicação para realização de testes locais. 
 
 #Sentry <br>
 SENTRY_ENV: local <br>

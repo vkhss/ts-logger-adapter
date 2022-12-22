@@ -38,6 +38,20 @@ ELASTIC_APM_ENVIRONMENT: local
 
 Para realizar a inclusão dos logs em sua aplicação, você deverá realizar o import do logger para o arquivo no qual deseja usá-lo.
 
+É importante resaltar tambem que o "instances.ts" deverá ser importado no arquivo onde a aplicação inicia, para que o agente do elastic apm consiga capturar todas as transações. 
+
+Exemplo "index.ts": 
+
+```javascript
+
+import './instances.ts'
+
+//ou
+
+import { logger } from './instances.ts'
+
+```
+
 Após isto você poderá chamar o método desejado de acordo com a severidade do erro, são eles: 
 
 :skull: logger.fatal => Deverá logar um fatal de teste nas ferramentas (Sentry, ElasticAPM e StackDriver) <br>

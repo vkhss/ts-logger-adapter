@@ -74,7 +74,7 @@ Obs: Há arquivo de teste neste repositório chamado "logger.spec.ts", você pod
 ### Exemplo index.ts :
 
 ```javascript
-import {logger} from './instances'
+import { logger } from './instances'
 
 try {
     // your logic here
